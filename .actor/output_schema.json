@@ -1,67 +1,11 @@
 {
     "actorOutputSchemaVersion": 1,
-    "output": {
-        "OutputDataset": {
-            "type": "object",
-            "description": "Severe weather event records from ESWD.",
-            "properties": {
-                "weather": {
-                    "type": "string",
-                    "description": "Formatted weather event type"
-                },
-                "eventTypeRaw": {
-                    "type": "string",
-                    "description": "Raw event type code (HAIL, WIND, LIGHTNING, TORNADO, PRECIP)"
-                },
-                "eventDate": {
-                    "type": "string",
-                    "description": "Date of event in YYYY-MM-DD format"
-                },
-                "eventTime": {
-                    "type": "string",
-                    "description": "Time of event in HH:MM UTC format"
-                },
-                "maxHailDiameter": {
-                    "type": "string",
-                    "description": "Max hail diameter in cm (HAIL events only)"
-                },
-                "city": {
-                    "type": "string",
-                    "description": "City or locality of event"
-                },
-                "state": {
-                    "type": "string",
-                    "description": "State or region"
-                },
-                "country": {
-                    "type": "string",
-                    "description": "Country of event"
-                },
-                "latitude": {
-                    "type": "string",
-                    "description": "Latitude (decimal degrees)"
-                },
-                "longitude": {
-                    "type": "string",
-                    "description": "Longitude (decimal degrees)"
-                },
-                "radius": {
-                    "type": "string",
-                    "description": "Location accuracy radius in km"
-                },
-                "location": {
-                    "type": "string",
-                    "description": "Full human-readable location string"
-                },
-                "locationRaw": {
-                    "type": "string",
-                    "description": "HTML-formatted location description"
-                },
-                "source": {
-                    "type": "string",
-                    "description": "Source attribution"
-                }
-            }
+    "title": "ESWD Severe Weather Events Scraper Output",
+    "properties": {
+        "dataset": {
+            "type": "string",
+            "title": "Weather Events Dataset",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
         }
     }
 }
