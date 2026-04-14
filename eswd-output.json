@@ -1,0 +1,74 @@
+[
+  {
+    "weather": "damaging lightning",
+    "location": "Ermakiá \nPiraiós Nomós Greece (40.50 N, 21.85 E) < 3 km18-08-2025\n (Monday)14:55 UTC (+/- 30 min.)",
+    "locationRaw": "<p class=\"LIGHTNING\">\n</p>\n<p class=\"LIGHTNING\">\n<b>Ermaki&#xe1;&#xa0;</b>\nPirai&#xf3;s Nom&#xf3;s&#xa0;<br><b>Greece</b>&#xa0;(40.50&#xa0;N,&#xa0;21.85&#xa0;E)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>14:55</b>&#xa0;UTC&#xa0;(+/- 30 min.)<br></p>",
+    "city": "Ermakiá",
+    "state": "",
+    "country": "Greece",
+    "latitude": "40.50",
+    "longitude": "21.85",
+    "radius": "3",
+    "source": "based on information from:  photograph(s) and/or video footage of the inflicted damage, a report on a websiteImpacts: Tree(s) damaged, Fire as a consequence of the eventA wildfire was reported in this area. The time was based on Blitzortung lightning detection system.https://efkozani.gr/keravnos-prokalese-fotia-ston-profiti-ilia-ermakias-ti-esvise-i-vrochi/Reference: \"Κεραυνός προκάλεσε φωτιά στον Προφήτη Ηλία Ερμακιάς – Την “έσβησε” η βροχή\", efkozani, 18 AUG 2025.report status: report confirmed by reliable source (QC1) contact: Igor Laskowski (ESWD management)"
+  },
+  {
+    "weather": "severe wind",
+    "location": "La Fresneda \nAragón Spain (40.93 N, 0.08 E) < 3 km18-08-2025\n (Monday)14:35 UTC (+/- 30 min.)",
+    "locationRaw": "<p class=\"WIND\">\n</p>\n<p class=\"WIND\">\n<b>La Fresneda&#xa0;</b>\nArag&#xf3;n&#xa0;<br><b>Spain</b>&#xa0;(40.93&#xa0;N,&#xa0;0.08&#xa0;E)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>14:35</b>&#xa0;UTC&#xa0;(+/- 30 min.)<br></p>",
+    "city": "La Fresneda",
+    "state": "",
+    "country": "Spain",
+    "latitude": "40.93",
+    "longitude": "0.08",
+    "radius": "3",
+    "source": "based on information from:  a report on a website, a newspaper reportintensity and other characteristics: IF1 ,  Damage Indicator: TRA,  Degree of Damage: 3 the intensity rating was based on a written account of the damage (e.g. in a newspaper).Impacts: Tree(s) uprooted or snappedseveral trees were downed;https://www.diariodeteruel.es/bajoaragon/una-tormenta-de-viento-lluvia-y-agua-causa-afecciones-en-tejados-cultivos-y-arbolado-en-el-matarrana-y-el-bajo-aragonReference: Una tormenta de viento, lluvia y agua causa afecciones en tejados, cultivos y arbolado en el Matarraña y el Bajo Aragón, Diario de Teruel, 18 Aug 2025. Report checked by lightning detection.report status: report confirmed by reliable source (QC1) contact: Gabriel Strommer (ESWD management)"
+  },
+  {
+    "weather": "severe wind",
+    "location": "Valjunquera \nAragón Spain (40.95 N, 0.03 E) < 3 km18-08-2025\n (Monday)14:30 UTC (+/- 30 min.)",
+    "locationRaw": "<p class=\"WIND\">\n</p>\n<p class=\"WIND\">\n<b>Valjunquera&#xa0;</b>\nArag&#xf3;n&#xa0;<br><b>Spain</b>&#xa0;(40.95&#xa0;N,&#xa0;0.03&#xa0;E)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>14:30</b>&#xa0;UTC&#xa0;(+/- 30 min.)<br></p>",
+    "city": "Valjunquera",
+    "state": "",
+    "country": "Spain",
+    "latitude": "40.95",
+    "longitude": "0.03",
+    "radius": "3",
+    "source": "based on information from:  photograph(s) and/or video footage of the inflicted damage, a report on a website, a newspaper reportintensity and other characteristics: IF1.5 ,  Damage Indicator: BRB,  Degree of Damage: 2 the intensity rating was based on photograph(s) and/or video footage of the inflicted damage.Impacts: Road(s) impassable or closed, Damage to roof or chimney, Roof(s) destroyed, Tree(s) uprooted or snappedmultiple roofs were damaged and trees downed, one rather weak roof was destroyedhttps://www.diariodeteruel.es/bajoaragon/una-tormenta-de-viento-lluvia-y-agua-causa-afecciones-en-tejados-cultivos-y-arbolado-en-el-matarrana-y-el-bajo-aragonReference: Una tormenta de viento, lluvia y agua causa afecciones en tejados, cultivos y arbolado en el Matarraña y el Bajo Aragón, Diario de Teruel, 18 Aug 2025. Report checked by lightning detection.report status: report confirmed by reliable source (QC1) contact: Gabriel Strommer (ESWD management)"
+  },
+  {
+    "weather": "severe wind",
+    "location": "La Codoñera \nAragón Spain (40.93 N, 0.08 W) < 3 km18-08-2025\n (Monday)14:15 UTC (+/- 15 min.)",
+    "locationRaw": "<p class=\"WIND\">\n</p>\n<p class=\"WIND\">\n<b>La Codo&#xf1;era&#xa0;</b>\nArag&#xf3;n&#xa0;<br><b>Spain</b>&#xa0;(40.93&#xa0;N,&#xa0;0.08&#xa0;W)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>14:15</b>&#xa0;UTC&#xa0;(+/- 15 min.)<br></p>",
+    "city": "La Codoñera",
+    "state": "",
+    "country": "Spain",
+    "latitude": "",
+    "longitude": "",
+    "radius": "3",
+    "source": "based on information from:  a report on a website, a newspaper reportintensity and other characteristics: IF1 ,  Damage Indicator: TRA,  Degree of Damage: 3 the intensity rating was based on a written account of the damage (e.g. in a newspaper).Impacts: Damage to roof or chimney, Tree(s) uprooted or snappedseveral trees were downed, tiles torn from roofs and broken;https://www.diariodeteruel.es/bajoaragon/una-tormenta-de-viento-lluvia-y-agua-causa-afecciones-en-tejados-cultivos-y-arbolado-en-el-matarrana-y-el-bajo-aragonhttps://www.cartv.es/aragonnoticias/teruel/una-tormenta-de-granizo-deja-graves-afecciones-en-la-codonera-teruelReference: Una tormenta de viento, lluvia y agua causa afecciones en tejados, cultivos y arbolado en el Matarraña y el Bajo Aragón, Diario de Teruel, 18 Aug 2025. Una tormenta de granizo deja graves afectaciones en La Codoñera (Teruel), Aragón Noticias, 18 Aug 2025. Report checked by lightning detection.report status: report confirmed by reliable source (QC1) contact: Gabriel Strommer (ESWD management)"
+  },
+  {
+    "weather": "large hail",
+    "location": "La Codoñera \nAragón Spain (40.94 N, 0.09 W) < 3 km18-08-2025\n (Monday)14:07 UTC (+/- 15 min.)",
+    "locationRaw": "<p class=\"HAIL\">\n</p>\n<p class=\"HAIL\">\n<b>La Codo&#xf1;era&#xa0;</b>\nArag&#xf3;n&#xa0;<br><b>Spain</b>&#xa0;(40.94&#xa0;N,&#xa0;0.09&#xa0;W)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>14:07</b>&#xa0;UTC&#xa0;(+/- 15 min.)<br></p>",
+    "city": "La Codoñera",
+    "state": "",
+    "country": "Spain",
+    "latitude": "",
+    "longitude": "",
+    "radius": "3",
+    "source": "based on information from:  a report on a website, a newspaper report, photo or video of the eventmaximum hail diameter: 3 cmevent duration at place of observation: 15 minutesImpacts: Damage to window(s) or insulation layer(s), Crops/farmland damagedlarge hail followed by strong wind and heavy rain, hailstones up to 3 cm reported, hail layer up to several cm; large damage to fields; facades damaged, residents lowered roller shutters because of \"large stones falling against windows\";https://www.diariodeteruel.es/bajoaragon/una-tormenta-de-viento-lluvia-y-agua-causa-afecciones-en-tejados-cultivos-y-arbolado-en-el-matarrana-y-el-bajo-aragonhttps://www.lacomarca.net/lluvias-avisos-amarillos-naranjas-golpean-codonera-valjunquera-torrecilla-alcaniz/https://www.heraldo.es/noticias/aragon/teruel/2025/08/18/granizada-codonera-vientos-teruel-tormenta-1847728.htmlhttps://www.cartv.es/aragonnoticias/teruel/una-tormenta-de-granizo-deja-graves-afecciones-en-la-codonera-teruelReference: Una tormenta de viento, lluvia y agua causa afecciones en tejados, cultivos y arbolado en el Matarraña y el Bajo Aragón, Diario de Teruel, 18 Aug 2025. Una fuerte tormenta con granizo corta la carretera en Valjunquera, provoca incendios en Mazaleón y en Calaceite y causa daños en varios pueblos, La Comarca, 18 Aug 2025. Una tormenta en Teruel deja granizo de 3 centímetros de diámetro en La Codoñera, Heraldo, 18 Aug 2025. Una tormenta de granizo deja graves afectaciones en La Codoñera (Teruel), Aragón Noticias, 18 Aug 2025. Report checked by lightning detection.report status: report confirmed by reliable source (QC1) contact: Gabriel Strommer (ESWD management)"
+  },
+  {
+    "weather": "damaging lightning",
+    "location": "Kerasochórion \nThesprotia Greece (39.68 N, 20.31 E) < 3 km18-08-2025\n (Monday)13:23 UTC (+/- 30 min.)",
+    "locationRaw": "<p class=\"LIGHTNING\">\n</p>\n<p class=\"LIGHTNING\">\n<b>Kerasoch&#xf3;rion&#xa0;</b>\nThesprotia&#xa0;<br><b>Greece</b>&#xa0;(39.68&#xa0;N,&#xa0;20.31&#xa0;E)&#xa0;&lt; 3 km<br><b>18-08-2025</b>\n&#xa0;(Monday)<br><b>13:23</b>&#xa0;UTC&#xa0;(+/- 30 min.)<br></p>",
+    "city": "Kerasochórion",
+    "state": "",
+    "country": "Greece",
+    "latitude": "39.68",
+    "longitude": "20.31",
+    "radius": "3",
+    "source": "based on information from:  a report on a websiteImpacts: Tree(s) damaged, Fire as a consequence of the eventA wildfire was reported in this area. The time was based on Blitzortung lightning detection system.https://pelop.gr/keravnos-prokalese-fotia-sto-kerasochori-tou-dimou-filiaton-thesprotias/Reference: \"Κεραυνός προκάλεσε φωτιά στο Κερασοχώρι του δήμου Φιλιατών Θεσπρωτίας\", pelop, 18 AUG 2025.report status: report confirmed by reliable source (QC1) contact: Igor Laskowski (ESWD management)"
+  }
+]

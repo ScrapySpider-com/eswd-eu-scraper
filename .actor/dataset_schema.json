@@ -1,0 +1,126 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "weather": {
+            "type": "string",
+            "description": "Formatted weather event type (e.g., 'large hail', 'severe wind', 'tornado')"
+        },
+        "eventTypeRaw": {
+            "type": "string",
+            "description": "Raw event type code from ESWD (HAIL, WIND, LIGHTNING, TORNADO, PRECIP)"
+        },
+        "eventDate": {
+            "type": "string",
+            "description": "Date of the weather event in ISO 8601 format (YYYY-MM-DD)"
+        },
+        "eventTime": {
+            "type": "string",
+            "description": "Time of the weather event in HH:MM UTC format (+/- 30 minutes accuracy)"
+        },
+        "maxHailDiameter": {
+            "type": "string",
+            "description": "Maximum hail diameter in centimeters (only for HAIL events, empty otherwise)"
+        },
+        "city": {
+            "type": "string",
+            "description": "City or locality where the event occurred. Falls back to coordinate-based label if unknown."
+        },
+        "state": {
+            "type": "string",
+            "description": "State or region where the event occurred (may be empty)"
+        },
+        "country": {
+            "type": "string",
+            "description": "Two-letter ISO country code where the event occurred (e.g., DE, FR, IT)"
+        },
+        "latitude": {
+            "type": "string",
+            "description": "Latitude of the event location (decimal degrees)"
+        },
+        "longitude": {
+            "type": "string",
+            "description": "Longitude of the event location (decimal degrees)"
+        },
+        "radius": {
+            "type": "string",
+            "description": "Location accuracy radius in kilometers"
+        },
+        "location": {
+            "type": "string",
+            "description": "Full human-readable location string including coordinates, radius, date and time"
+        },
+        "locationRaw": {
+            "type": "string",
+            "description": "HTML-formatted location description as used on the ESWD website"
+        },
+        "source": {
+            "type": "string",
+            "description": "Source attribution including contact and reference information"
+        }
+    },
+    "views": {
+        "overview": {
+            "title": "Severe Weather Events",
+            "transformation": {
+                "fields": [
+                    "weather",
+                    "eventTypeRaw",
+                    "eventDate",
+                    "eventTime",
+                    "city",
+                    "country",
+                    "latitude",
+                    "longitude",
+                    "radius",
+                    "maxHailDiameter",
+                    "source"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "weather": {
+                        "label": "Event Type",
+                        "format": "text"
+                    },
+                    "eventDate": {
+                        "label": "Date",
+                        "format": "text"
+                    },
+                    "eventTime": {
+                        "label": "Time (UTC)",
+                        "format": "text"
+                    },
+                    "city": {
+                        "label": "City",
+                        "format": "text"
+                    },
+                    "country": {
+                        "label": "Country",
+                        "format": "text"
+                    },
+                    "latitude": {
+                        "label": "Lat",
+                        "format": "text"
+                    },
+                    "longitude": {
+                        "label": "Lon",
+                        "format": "text"
+                    },
+                    "radius": {
+                        "label": "Radius (km)",
+                        "format": "text"
+                    },
+                    "maxHailDiameter": {
+                        "label": "Max Hail (cm)",
+                        "format": "text"
+                    },
+                    "source": {
+                        "label": "Source",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}

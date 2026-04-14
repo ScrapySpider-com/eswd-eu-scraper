@@ -1,0 +1,26 @@
+{
+	"name": "eswd-eu-scraper",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "This is a boilerplate of an Apify actor.",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"dependencies": {
+		"apify": "^3.3.2",
+		"crawlee": "^3.12.2",
+		"html-entities": "^2.5.2"
+	},
+	"devDependencies": {
+		"@apify/eslint-config": "^0.4.0",
+		"eslint": "^8.50.0"
+	},
+	"scripts": {
+		"start": "node src/main.js",
+		"lint": "eslint ./src --ext .js,.jsx",
+		"lint:fix": "eslint ./src --ext .js,.jsx --fix",
+		"test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+	},
+	"author": "ScrapySpider",
+	"license": "ISC"
+}

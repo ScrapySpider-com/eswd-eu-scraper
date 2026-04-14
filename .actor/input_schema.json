@@ -1,0 +1,68 @@
+{
+    "title": "ESWD Severe Weather Events Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "timeAmount": {
+            "title": "Time Range Amount",
+            "type": "integer",
+            "description": "How many time units to look back for events. Combined with Time Range Unit (e.g., 2 days = last 48 hours of events).",
+            "default": 2,
+            "minimum": 1,
+            "maximum": 365,
+            "editor": "number"
+        },
+        "timeUnit": {
+            "title": "Time Range Unit",
+            "type": "string",
+            "description": "The time unit for the lookback period.",
+            "enum": ["h", "d", "w", "m"],
+            "enumTitles": ["Hours", "Days", "Weeks", "Months"],
+            "default": "d",
+            "editor": "select"
+        },
+        "eventTypes": {
+            "title": "Event Types",
+            "type": "array",
+            "description": "Filter results by weather event type. Leave empty to include all event types.",
+            "items": {
+                "type": "string",
+                "enum": ["HAIL", "WIND", "LIGHTNING", "TORNADO", "PRECIP"]
+            },
+            "uniqueItems": true,
+            "editor": "select",
+            "default": []
+        },
+        "countries": {
+            "title": "Countries",
+            "type": "array",
+            "description": "Filter by two-letter ISO country code (e.g., 'DE' for Germany, 'FR' for France, 'IT' for Italy). Leave empty for all countries.",
+            "items": {
+                "type": "string"
+            },
+            "editor": "stringList",
+            "default": []
+        },
+        "maxItems": {
+            "title": "Max Items",
+            "type": "integer",
+            "description": "Maximum number of events to save. Set to 0 for unlimited.",
+            "default": 0,
+            "minimum": 0,
+            "editor": "number"
+        },
+        "includeDeleted": {
+            "title": "Include Deleted Events",
+            "type": "boolean",
+            "description": "Whether to include events that have been deleted from the ESWD database.",
+            "default": false,
+            "editor": "checkbox"
+        },
+        "rawPayload": {
+            "title": "Raw Payload (Advanced)",
+            "type": "string",
+            "description": "Optional base64-encoded raw ESWD API payload. Use this to override all other input fields for advanced filter configurations. Leave empty to use the fields above.",
+            "editor": "textfield"
+        }
+    }
+}
